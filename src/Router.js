@@ -6,12 +6,14 @@ import App from './pages/Comment /App';
 import Project from './pages/Project/Project';
 import Item from './pages/Project/Item';
 import ProductItem from './pages/ProductItem/ProductItem';
+import Dropdown from './pages/Dropdown/Dropdown';
 
 const Router = () => {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/productitem" element={<ProductItem />} />
+        <Route path="/Dropdown" element={<Dropdown />} />
         <Route path="/app" element={<App />} />
         <Route path="/sideeffect" element={<SideEffect />} />
         <Route path="/test" element={<Test />} />
